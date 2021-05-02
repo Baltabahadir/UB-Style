@@ -122,7 +122,7 @@
             flex-wrap: wrap;
         }
         .ad-section {}
-        
+
         footer {
            display: grid;
            grid-template-columns: 3vw minmax(20ch, 50ch) minmax(30vw auto) 3vw;
@@ -140,7 +140,18 @@
             grid-area: links;
         }
         footer>nav>ul {display:flex; flex-wrap: wrap;}
-        footer>nav>ul>li {flex:1 1 15%;}
+        footer>nav>ul>li {flex:1 1 10%;}
+        @media screen and (max-width:1024px) {
+
+footer {
+    display: grid;
+    grid-template-columns: 1vw minmax(20ch, auto) 1vw;
+    grid-template-areas:
+        ". logo ."
+        ". links ."
+        ". menu .";
+}
+}
     </style>
 </head>
 <body>
