@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet"/>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
 		<script src="./convertor.js"></script>
 	</head>
 <body>
-	<div class="col-md-3"></div>
-	<div class="col-md-6 well">
-		<div class="col-md-2"></div>
-			<h4>Currency Converter</h4>
+			<h3>Currency Converter</h3>
 			<div class="form-group">
 				<select onchange="Currency(); Calculate()" class="form-control" id="converter" style="width:30%;">
 					<option value="Dollar">Dollar</option>
@@ -20,12 +17,10 @@
 				<br />
 				<input type="number" oninput="Calculate()" class="form-control" id="value1"/>
 			</div>
-			<br /><br />
+			<br/><br/>
 			<div class="form-group">
 				<label>Tugrug</label>
 				<input type="number" class="form-control" id="value2" disabled="disabled"/> ₮
-			</div>
-		
-	</div>
+			</div>	
 </body>
 </html>
