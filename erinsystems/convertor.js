@@ -17,7 +17,7 @@ if(x == ""){
         break;
 
         case "Euro":
-            document.getElementById("value2").value = x * 3150.84;
+            document.getElementById("value2").value = x * 3406.01;
         break;
 
         case "Lira":
